@@ -105,7 +105,7 @@ def instructions():
 
 window = Tk()
 window.config(height=800, width=1000, padx=20, pady=20, bg='black')
-window.title('Typing Speed App')
+window.title('Text Disappearing App')
 
 label_fonts = ("Verdana", 14)
 
@@ -118,7 +118,7 @@ info_frame = Frame(window, bg='black')
 info_frame.grid(row=0, column=1, padx=20, pady=10, sticky='n')
 
 write_below = Label(typing_frame,
-                    text='Start Typing',
+                    text='Text Disappearing App',
                     bg='black',
                     fg='lightcyan',
                     font=("Georgia", 14)
